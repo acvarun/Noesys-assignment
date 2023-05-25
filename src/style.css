@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  height:500px;
+  color: white;
+}
+.displayDiv{
+  height: 40px;
+  color: white;
+  font-size: 36px;
+}
+#historyDiv{
+  display:none;
+  font-size: 16px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-gap: 10px;
+  
+}
+.number{
+  background-color: grey;
+  border-radius: 50%;
+  height: 70px;
+  width :70px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.operation{
+  background-color: orange;
+  border-radius: 50%;
+  height: 70px;
+  width :70px;
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+}
+.others{
+  background-color: white;
+  border-radius: 50%;
+  height: 70px;
+  width :70px;
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+}
+#btn{
+  height: 40px;
+  width:80px;
+  background-color: blue;
+  color: white;
+  border-radius:5px;
+  font-size: 18px;
+}
